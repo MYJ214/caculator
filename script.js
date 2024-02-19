@@ -21,8 +21,8 @@ function calculate() {
     var totalPillWeightNeeded = pillsNeeded * pillWeight;
   
     document.getElementById("result").innerHTML = `
-    <p>한 봉투에 들어가는 알약의 무게: ${gramsPerPacket.toFixed(2)} g</p>
-    <p>${packets} 봉투를 만들기 위해 필요한 알약의 수: ${pillsNeeded} 개</p>
-    <p>필요한 총 알약의 무게: ${totalPillWeightNeeded.toFixed(2)} g</p>
+    <p>한 봉투에 들어가는 약의 무게: ${gramsPerPacket.toFixed(4)} g</p>
+    <p>${packets} 봉투를 만들기 위해 필요한 알약의 수: ${pillsNeeded.toFixed(4)} 개</p>
+    <p>필요한 총 알약의 무게: ${totalPillWeightNeeded.toFixed(4)} g</p>
   `;
 }
